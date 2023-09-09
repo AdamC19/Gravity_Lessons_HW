@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 562a53f2-aacb-4a29-8494-868100255d87)
+
+  (paper "B")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 254 76.2) (size 63.5 63.5) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 16c97c97-dc2f-466b-a60f-45ce6290c295)
+    (property "Sheetname" "Inputs and ADC" (at 254 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "inputs_and_ADC.kicad_sch" (at 254 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Power_Meter_RPi_Hat_HW"
+        (path "/562a53f2-aacb-4a29-8494-868100255d87" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 165.1 76.2) (size 63.5 63.5) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f8d17f5d-539b-472e-8488-51077d09b4bc)
+    (property "Sheetname" "Connectors" (at 165.1 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 165.1 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Power_Meter_RPi_Hat_HW"
+        (path "/562a53f2-aacb-4a29-8494-868100255d87" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
